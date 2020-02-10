@@ -18,13 +18,7 @@ final class ExamplePresenter: ExamplePresentationLogic {
     
     // MARK: - Private Properties
     
-    private weak var viewController: ExampleViewDisplayLogic?
-    
-    /// Initializes the presenter with a weak reference to the display logic
-    /// - Parameter viewController: the viewController, constrained by the `ExampleViewDisplayLogic` interface
-    init(viewController: ExampleViewDisplayLogic) {
-        self.viewController = viewController
-    }
+    weak var viewController: ExampleViewDisplayLogic?
     
     // MARK: - ExamplePresentationLogic
     

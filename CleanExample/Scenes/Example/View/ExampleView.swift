@@ -43,6 +43,7 @@ final class ExampleView: CodedView {
         tableViewDelegate: UITableViewDelegate
     ) {
         super.init(frame: frame)
+        backgroundColor = .white
         tableView.dataSource = tableViewDataSource
         tableView.delegate = tableViewDelegate
     }
